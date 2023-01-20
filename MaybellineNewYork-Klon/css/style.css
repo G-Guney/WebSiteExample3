@@ -1,0 +1,180 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Bebas Neue', cursive;;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0,0.7);
+}
+.navbar{
+    height: 60px;
+}
+
+.navbar img {
+    width: 155px;
+    height: 22px;
+    cursor: pointer;
+}
+.navbar a{
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.navbar a:hover {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+.nav-link {
+    padding: 0px;
+}
+
+
+.navbar .search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 22px;
+    display: flex;
+}
+
+.sections-line {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 3px;
+}
+/* studio */
+.studio-item{
+    max-width: 427px;
+    min-width: 315px;
+    max-height: 650px;
+    min-height: 500px;
+    background-color: black;
+}
+.studio-item img {
+    width:100%;
+}
+.studio-box::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* product */
+.product {
+    width: 315px;
+    height: 472px;
+    position: relative;
+    margin-right: 9px;
+}
+
+.product img {
+    width:  315px;
+    height: 472px;
+}
+
+.product-text {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 24px;
+    color: black;
+}
+.product-text a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+.product-text a:hover {
+    text-decoration: underline;
+}
+.product-box::-webkit-scrollbar {
+    display: none;
+}
+/* sellers */
+
+
+.sellers {
+    width: 213px;
+    height: 450px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.sellers img {
+    width: 213px;
+    height: 319px;
+}
+
+.sellers-text a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.sellers-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* responsive */
+@media screen and (max-width:1024px) {
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 80px;
+    }
+    .product {
+        width: 218px;
+        height: 327px;
+        margin: 10px;
+    }
+    
+    .product img {
+        width: 218px;
+        height: 327px;
+    }
+    .sellers {
+        width: 142px;
+        height: 350px;
+    }
+    
+    .sellers img {
+        width: 142px;
+        height: 213px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 60px;
+    }
+    .product {
+        width: 315px;
+        height: 472px;
+        margin: 10px;
+    }
+    
+    .product img {
+        width: 315px;
+        height: 472px;
+    }
+    .sellers{
+        width: 213px;
+        height: 450px;
+    }
+    
+    .sellers img {
+        width: 213px;
+        height: 319px;
+    }
+}

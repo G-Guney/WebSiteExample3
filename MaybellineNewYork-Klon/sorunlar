@@ -1,0 +1,24 @@
+navbar hover ile kayma oluyor ++
+
+navbar responsivede bouxluyor-arkaplan beyaz ve geride kalıyor
+
+
+carousel ekranı yanlardan 0 kaplama
+carousel geçiş süresi ayarlama  data-bs-interval="3000" buradaki her bin 1 saniye ve carousel-item olan divin içine koyulur
+cardlar responsive sorunu
+
+px girmek yerine farklı bir yöntem ?
+
+
+
+product yanlardaki boşlukalr
+
+
+çok satanlar 
+
+
+EKLENECEKLER
+
+---CAROSEL YAZI EKLELME
+--ipuclarına js ile tıklama ekle
+
